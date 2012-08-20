@@ -1,0 +1,22 @@
+classes{
+	class{
+		name = "Cliente";
+		attributes{
+			attribute{
+				name = "name";
+				type = string;
+				required = true;
+			}
+			attribute{
+				name = "birthdayDate";
+				type = date;
+				required = false;
+			}
+			attribute{
+				name = "address";
+				type = Address;
+				required = true;
+			}
+		}
+	}
+}
